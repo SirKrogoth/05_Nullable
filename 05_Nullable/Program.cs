@@ -10,6 +10,14 @@ namespace _05_Nullable
     {
         static void Main(string[] args)
         {
+            //Struct
+            //ERRO => int i = null;
+
+            //passagem por referência
+            object o = null;
+
+            Nullable<int> idade = null;
+            int? valor = null;
         }
     }
 }
